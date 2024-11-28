@@ -33,7 +33,7 @@ router.get("/listSchools",(req, res) =>{
         if(err){
             console.log(err);
         }else{
-           res.json(user).send(user);
+           res.send(user);
         }
      })
 
